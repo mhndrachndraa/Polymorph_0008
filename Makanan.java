@@ -7,4 +7,10 @@ public class Makanan extends Produk {
         this.kadaluarsa = kadaluarsa;
     }
 
+    @Override
+    public double hitungHargaAkhir(int jmlhBeli) {
+        System.out.println("Total Harga= " + hitungTotalHarga(jmlhBeli));
+        return hitungTotalHarga(jmlhBeli) * 0.95;
+    }
+
 }
