@@ -6,4 +6,9 @@ public class Kasir {
         this.namaKasir = namaKasir;
     }
 
+    public void tampilIdentitas() {
+        System.out.println("===== TOKO GARUDA =====");
+        System.out.println("Nama Kasir: " + namaKasir);
+    }
+
 }
